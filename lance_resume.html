@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>lance_resume</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<h1 id="lance-chang">Lance Chang</h1>
+<h2 id="sensor-python-developer">Sensor Python Developer</h2>
+<ul>
+<li><a href="mailto:virtuouslycan@gmail.com" class="email">virtuouslycan@gmail.com</a></li>
+<li>Github: <a href="https://github.com/Lance0404">Lance0404</a></li>
+<li>+886 963257206</li>
+<li>Line ID: lycanlance</li>
+</ul>
+<hr />
+<h2 id="profile">Profile</h2>
+<p>Career started as a <em>Bioinformatic technician</em>, un-puzzling genome level sequencing projects. Later I switched my career path to the software industry. I develop database-driven web applications with Python, but also have experience in Kotlin, Java, Node.js and Rust. Till now, I have taken <em>backend developer</em>, <em>data engineer</em> or <em>devops engineer</em> positions.</p>
+<hr />
+<h2 id="highlights">Highlights</h2>
+<ul>
+<li>Experience in web application back-end development, either monolith or microservice, with multiple different languages and databases, and deployed to multiple different cloud environments.</li>
+<li>Experience in microservice development with AWS Lambda Functions written in Python or Node.js.</li>
+<li>Experience in CI/CD coordinated by Jenkins (or AWS Codebuild), under containerized environments and deployed to AWS with Cloudformation template.</li>
+<li>Through carrying out the Agile/Scrum practice, I can work cooperatively within a self-organized team under a foreign environment and deliver done increments per sprint.</li>
+</ul>
+<hr />
+<h2 id="experience">Experience</h2>
+<h3 id="cameo-inc.">Cameo Inc.</h3>
+<ul>
+<li><strong>Senior Software Developer (contractor)</strong> <em>Nov 2021 - Now</em>
+<ul>
+<li>Joined a team that maintains an IoT data center that collects air, water and noise data from nation-wide devices. Continuously refactored the code base and developed new features on top.</li>
+<li>Developed public-facing RESTful APIs with Python FastAPI framework and Celery asynchronous framework, and deployed as Nginx-Gunicorn-FastAPI form with docker-compose.</li>
+<li>Configured multiple Nginx web servers for redirection and load balancing, along with certificate auto renewal.</li>
+<li>Developed continuous delivery workflow for deploying services on premise machines.</li>
+<li>Developed Kafka consumer-producer process with Python aiokafka package that does ETL on messages between topics on the fly, and capable of consuming on specific time range which is useful for recovering data from the past. `</li>
+</ul></li>
+</ul>
+<h3 id="fst-network">FST Network</h3>
+<ul>
+<li><strong>Senior Software Developer</strong> <em>June 2021 - August 2021</em>
+<ul>
+<li>Joined a team that develops a data mesh software with Rust which was orchestrated with kubernetes.</li>
+<li>Developed a FTP client feature with async_ftp crate .</li>
+<li>Developed RESTful APIs that get data from Postgresql with sqlx crate.</li>
+<li>Developed gRPC APIs that communicate between microservices with the tonic crate.</li>
+</ul></li>
+</ul>
+<h3 id="wistron-its">Wistron ITS</h3>
+<ul>
+<li><strong>Senior DevOps Engineer</strong> (Contractor of Bioclinica, a US company provides clinical imaging solution) <em>Nov 2020 - May 2021</em>
+<ul>
+<li>Continuously optimizing the CICD process of two Npm-managed Javascript web applications.</li>
+<li>Maintained CICD processes that mainly covers build, test, publish, git tagging and deployment to AWS.</li>
+<li>By using AWS Codebuild with docker images as concurrent Jenkins slaves, Jenkins jobs are scalable.</li>
+<li>Refactored Jenkins jobs by moving the tedious web-based configuration into Jenkinsfile, so-called pipeline as code, eventually leads to reduced maintenance cost.</li>
+<li>Chained up multiple Jenkins jobs into one single job so as to have the process fully automated without human intervention. Parameterized all the options for that multitasked Jenkins job so the user can easily operate certain desired stages through toggles from the web UI.</li>
+<li>Made use of parallel stages in Jenkinsfile so stages without dependency can run in parallel to reduce the overall CI execution time.</li>
+<li>Resolved issues related to deploying AWS cloudformation stacks in different regions.</li>
+</ul></li>
+</ul>
+<h3 id="ampos-solution-inc.">Ampos Solution Inc.</h3>
+<ul>
+<li><strong>Backend Developer</strong> <em>May 2019 - Aug 2020</em>
+<ul>
+<li>Work as a developer within a Project Team of the company, which takes on customized requirements from the customer, but also rotates to Product Teams if they fall short of resources.</li>
+<li>Develop the backend part of an ERM (Employee Resource Management) system, which contains both monolithic and microservice parts and deployed on AWS cloud as ECS.</li>
+<li>Develop monolithic server with Spring Boot, Java and Kotlin, with unit tests and integration tests covered.</li>
+<li>Develop microservice with AWS Lambda, usually written in Python or Node.js, or ECS written in Kotlin with Spring Boot framework.</li>
+<li>Integrate the functionality of an external server, Matter Most, to implement a chat channel function for our mobile app.</li>
+<li>Provide performant backend APIs with cache design for both mobile and web client use.</li>
+<li>Deploy a CodeBuild project for every new service, which webhooks to its VCS and operates CI and optionally deploys to the environment of desire.</li>
+<li>For every deployable project, write AWS CloudFormation template.yml for both its CodeBuild and its own stack to achieve IaC (Infrastructure as Code).</li>
+<li>Use AWS CodeBuild or Jenkins to implement CI/CD for every deployable project.</li>
+<li>Build on top of several AWS services like S3, Glue, AthenaQuery, Elastic Beanstalk, ECS, ECR, Lambda, ElasticSearch, RDS, DynamoDB, CodeBuild, CloudFormation, CloudWatch, SNS and SQS.</li>
+</ul></li>
+</ul>
+<h3 id="breaktime-inc.">Breaktime Inc.</h3>
+<ul>
+<li><strong>Backend Developer/Data Engineer</strong> <em>Mar 2018 - May 2019</em>
+<ul>
+<li>Enhanced the collection, reformatting and storage of user behavior data by replacing the message queue Redis (in RAM) with Kafka (in Disk), so spikely lower the cost and maintenance effort.</li>
+<li>Optimized the dataflow from Redis to Kafka and from Kafka to Hbase (Hadoop).</li>
+<li>Use Spark to consume streaming data from Kafka and output the aggregated data as parquet file format.</li>
+<li>Fine-tuned Hbase rowkey design for bettering the data analyst’s daily usage.</li>
+<li>Refactored a web crawler REST api, covering more than 1000 domains. With spec given, it crawls through more than 100,000 web pages per hour.</li>
+<li>Automate the crawling process with the domain-specific xpath settings and regex so it can be fine parsed and stored into PostgreSQL .</li>
+<li>Customize the crawl on JS-generated pages with the use of Selenium.</li>
+<li>Developed an event-driven and scalable web application with the use of Nginx, uWSGI/Gunicorn, Flask, Celery*, Docker and Supervisor.</li>
+<li>Familiar with the deployment of docker images with GCE on GCP (Google Cloud Platform) and monitoring them with StackDriver.</li>
+<li>Familiar with deploying microservices as pods with GKE (kubernetes) on GCP by customizing the YAML file.</li>
+<li>Automating the sales’ requirements by searching through a list of keywords against Elasticsearch DB and generating a csv format file with python script.</li>
+</ul></li>
+</ul>
+<h3 id="hgiga-inc.">Hgiga Inc.</h3>
+<ul>
+<li><strong>Full-stack Developer</strong> <em>Nov 2016 - Feb 2018</em>
+<ul>
+<li>Maintenance of an MTA (Mail Transfer Agent) software including debugging, function enhancement and customized requirements.</li>
+<li>Assisting the customer service team for instant case solving during office hours.</li>
+<li>Version control with CVS.</li>
+<li>Pack the software into rpm according to the customized spec file.</li>
+<li>Deliver the updated install package through rpm server.</li>
+<li>Front-end maintenance with JavaScript, JQuery, Bootstrap et al.</li>
+<li>Backend maintenance with Perl, PHP, MySQL.</li>
+<li>Developed a full text search function through all the emails with the incorporation of Elasticsearch.</li>
+<li>Developed all kinds of customized HR data importing functions, since each customer may have different HR db schema.</li>
+<li>Developed a PDF signature function for those emails having PDF as attachment.</li>
+</ul></li>
+</ul>
+<h3 id="genomics">Genomics</h3>
+<ul>
+<li><strong>Bioinformatic Technician</strong> <em>Jun 2014 - Oct 2016</em>
+<ul>
+<li><em>de novo</em> transcriptome with or without reference</li>
+<li>RNS-reseq with reference</li>
+<li>genome <em>de novo</em> assembly, gene prediction, annotation (illumina data) - genome <em>de novo</em> assembly, gene prediction, annotation (pacbio data)</li>
+<li>amplicon variant call, variant annotation</li>
+<li>WES (whole exome sequencing) / WGS (whole genome sequencing)</li>
+</ul></li>
+</ul>
+<h3 id="academia-sinica">Academia Sinica</h3>
+<ul>
+<li><strong>Research Assistant</strong> <em>Oct 2012 - Dec 2013</em>
+<ul>
+<li>Publication
+<ul>
+<li><p>Chang TH, Lo WS, Ku C, Chen LL, Kuo CH. Molecular evolution of the substrate utilization strategies and putative virulence factors in mosquito-associated Spiroplasma species. Genome Biol Evol. 2014 Mar;6(3):500-9. doi: 10.1093/gbe/evu033.</p></li>
+<li><p>Lo WS, Ku C, Chen LL, Chang TH, Kuo CH. Comparison of metabolic capacities and inference of gene content evolution in mosquito-associated Spiroplasma diminutum and S. taiwanense. Genome Biol Evol. 2013;5(8):1512-23. doi: 10.1093/gbe/evt108.</p></li>
+</ul></li>
+</ul></li>
+</ul>
+<hr />
+<h2 id="education">Education</h2>
+<h3 id="national-taiwan-university-taiwan-taipei">National Taiwan University, Taiwan, Taipei</h3>
+<ul>
+<li>Master’s degree - Plant Pathology and Microbiology <em>Jul 2010 - Oct 2012</em></li>
+<li>Publication</li>
+<li>Liu LY, Tseng HI, Lin CP, Lin YY, Huang YH, Huang CK, Chang TH, Lin SS. High-Throughput Transcriptome Analysis of the Leafy Flower Transition of Catharanthus roseus Induced by Peanut Witches’-Broom Phytoplasma Infection. Plant Cell Physiol. 2014 May;55(5):942-57. doi: 10.1093/pcp/pcu029. Epub 2014 Feb 2.</li>
+</ul>
+<h3 id="national-chung-hsing-university-taiwan-taichung">National Chung Hsing University, Taiwan, Taichung</h3>
+<ul>
+<li>Bachelor’s degree - Entomology <em>Sep 2003 - Jun 2007</em></li>
+</ul>
+<hr />
+<h2 id="skills">Skills</h2>
+<ul>
+<li>Languages
+<ul>
+<li>Python, Rust, Java/Kotlin, Node.js, Javascript, Go</li>
+<li>Bash, Perl5, PHP, R, HTML</li>
+</ul></li>
+<li>Web frameworks and related tools
+<ul>
+<li>Python
+<ul>
+<li>FastAPI(starlette), Flask(uWSGI, Gunicorn), Django, Celery(async design), Sqlalchemy(SQL ORM)</li>
+</ul></li>
+<li>Java/Kotlin
+<ul>
+<li>Tomcat, Spring-boot, Hystrix, Liquibase, Security, JPA, Swagger, Junit, Mockito, Gradle, Maven</li>
+</ul></li>
+</ul></li>
+<li>Web server: Nginx</li>
+<li>Database
+<ul>
+<li>PostgreSQL, MySQL, AWS RDS</li>
+<li>AWS DynamoDB, MongoDB</li>
+<li>Redis, Memcached</li>
+<li>Kafka</li>
+<li>ElasticSearch</li>
+<li>Hbase</li>
+</ul></li>
+<li>Big Data
+<ul>
+<li>Spark, Duckdb, Pandas, AWS Glue/Athena</li>
+</ul></li>
+<li>Cloud Services
+<ul>
+<li>AWS
+<ul>
+<li>S3, SNS, SQS, ECR, ECS, CloudFormation, CodeBuild, CloudWatch, API Gateway, IAM, VPC, Route53</li>
+</ul></li>
+</ul></li>
+<li>GCP
+<ul>
+<li>GCE, GKE, StackDriver</li>
+</ul></li>
+<li>Version Control System
+<ul>
+<li>Git, Github, Bitbucket, Gitlab</li>
+</ul></li>
+<li>IDE:
+<ul>
+<li>VSCode, IntelliJ, PyCharm</li>
+</ul></li>
+<li>Container
+<ul>
+<li>Docker, Docker-compose, Kubernetes</li>
+</ul></li>
+<li>DevOps
+<ul>
+<li>CodeBuild, Jenkins, AWS cli</li>
+</ul></li>
+<li>OS
+<ul>
+<li>Window (WSL2), Linux, MacOS</li>
+</ul></li>
+<li>Protocol
+<ul>
+<li>REST, GraphQL, gRPC, HTTP(S), SMTP, FTP(S)</li>
+</ul></li>
+<li>Others
+<ul>
+<li>Postman</li>
+<li>Jira, Confluence, Trello</li>
+</ul></li>
+<li>Programming certificate:
+<ul>
+<li>Kafka certificate (hand out by TDEA, Taiwan Data Engineering Association)</li>
+</ul></li>
+<li>English certificate:
+<ul>
+<li>GRE (1330), TOEFL iBT (103), TOEIC (885), TOEFL ITP (613), GEPT mid-high level passed.</li>
+</ul></li>
+</ul>
+</body>
+</html>
