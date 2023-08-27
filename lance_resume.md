@@ -1,5 +1,5 @@
 # Lance Chang
-## Sensor Python Developer
+## Senior Backend Engineer
 
 - <virtuouslycan@gmail.com>
 - Github: [Lance0404](https://github.com/Lance0404)
@@ -9,22 +9,30 @@
 ---
 
 ## Profile
-Career started as a _Bioinformatic technician_, un-puzzling genome level sequencing projects. Later I switched my career path to the software industry. I develop database-driven web applications with Python, but also have experience in Kotlin, Java, Node.js and Rust. Till now, I have taken _backend developer_, _data engineer_ or _devops engineer_ positions.
+Career started as a _Bioinformatic technician_, un-puzzling genome level sequencing projects. Later switched career path toward software industry, capable of developing web applications with compiled (Scala/Rust) or interpreted (Python/Node.js) languages along with SQL or noSQL databases. Besides mainly as a _backend developer_, I have taken roles as _data engineer_ or _devops engineer_ as well.
 
 ---
 
 ## Highlights
-- Experience in web application back-end development, either monolith or microservice, with multiple different languages and databases, and deployed to multiple different cloud environments.
-- Experience in microservice development with AWS Lambda Functions written in Python or Node.js.
-- Experience in CI/CD coordinated by Jenkins (or AWS Codebuild), under containerized environments and deployed to AWS with Cloudformation template.
-- Through carrying out the Agile/Scrum practice, I can work cooperatively within a self-organized team under a foreign environment and deliver done increments per sprint.
+- Experienced in web application backend development, either monolith or microservice, with multiple different languages and databases, and deployment on different cloud services.
+- Experienced in microservice development with AWS Lambda Functions.
+- Experienced in CI/CD coordinated by Jenkins (or AWS Codebuild), under containerized environments and deployed to AWS with Cloudformation template.
+- Through carrying out the Agile/Scrum practice, am capable working within a self-organized team under a foreign environment and deliver done increments per sprint.
 
 ---
 
 ## Experience
 
+### Constant Contact
+* **Senior Software Engineer** _Apr. 2022 - Now_
+    - Joined a team that mainly maintains and develops system incorporated from Retention Science, a company acquired from 2020. These are all backend applications that mainly store customers' data and process their business logics in a scalable and performant manner.
+    - Refactored legacy code and build new features on top.
+    - Had on-call shifts for the systems under our team's maintenance.
+    - Involved with database upgrade, e.g. mysql 5.6 to 5.7, elasticsearch 6 to 1.3.
+    - Technology of frequent use: Scala, SBT, Cadence, Python, serverless, AWS ECS/Lambda/OpenSearch/Aurora MySQL/S3/SQS/SNS/Kinesis/Athena
+
 ### Cameo Inc.
-* **Senior Software Developer (contractor)** _Nov 2021 - Now_
+* **Senior Software Developer (contractor)** _Nov. 2021 - Apr. 2022_
     - Joined a team that maintains an IoT data center that collects air, water and noise data from nation-wide devices. Continuously refactored the code base and developed new features on top.
     - Developed public-facing RESTful APIs with Python FastAPI framework and Celery asynchronous framework, and deployed as Nginx-Gunicorn-FastAPI form with docker-compose.
     - Configured multiple Nginx web servers for redirection and load balancing, along with certificate auto renewal.
@@ -121,11 +129,13 @@ Career started as a _Bioinformatic technician_, un-puzzling genome level sequenc
 ## Skills
 
 - Languages
-    - Python, Rust, Java/Kotlin, Node.js, Javascript, Go
+    - Python, Scala, Java/Kotlin, Rust, Node.js, Javascript, Go
     - Bash, Perl5, PHP, R, HTML
 - Web frameworks and related tools
     - Python
         - FastAPI(starlette), Flask(uWSGI, Gunicorn), Django, Celery(async design), Sqlalchemy(SQL ORM)
+    - Scala
+        - Play, Cadence
     - Java/Kotlin
         - Tomcat, Spring-boot, Hystrix, Liquibase, Security, JPA, Swagger, Junit, Mockito, Gradle, Maven
 - Web server: Nginx
@@ -134,7 +144,7 @@ Career started as a _Bioinformatic technician_, un-puzzling genome level sequenc
     - AWS DynamoDB, MongoDB
     - Redis, Memcached
     - Kafka
-    - ElasticSearch
+    - ElasticSearch/Opensearch
     - Hbase
 - Big Data
     - Spark, Duckdb, Pandas, AWS Glue/Athena

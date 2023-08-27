@@ -23,3 +23,8 @@
     ```sh
     wkhtmltopdf --enable-local-file-access lance_resume.html lance_resume.pdf
     ```
+
+* from md to pdf (MacOS)
+    ```sh
+    pandoc lance_resume.md --pdf-engine=xelatex -o test.pdf
+    ```
