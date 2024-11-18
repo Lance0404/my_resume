@@ -2,22 +2,24 @@
 ## Senior Backend Engineer
 
 - <virtuouslycan@gmail.com>
-- Github: [Lance0404](https://github.com/Lance0404)
+- Github: https://github.com/Lance0404
+- LinkedIn: https://www.linkedin.com/in/tean-hsu-chang-048a75121/
 - +886 963257206
 - Line ID: lycanlance
 
 ---
 
 ## Profile
-Career started as a _Bioinformatic technician_, un-puzzling genome level sequencing projects. Later switched career path toward software industry, capable of developing web applications with compiled (Scala/Rust) or interpreted (Python/Node.js) languages along with SQL or noSQL databases. Besides mainly as a _backend developer_, I have taken roles as _data engineer_ or _devops engineer_ as well.
+Career started as a Bioinformatic technician, later switched career path toward software industry. Capable of developing web applications with compiled and interpreted languages interacting with SQL or noSQL databases, and have them deployed on cloud managed Kubernetes and integrate them with other cloud services. Mainly working as a backend developer, but have taken other roles as data engineer and devops engineer as well. Able to communicate fluently with English either verbally or orally in English-native environment.
 
 ---
 
 ## Highlights
-- Experienced in web application backend development, either monolith or microservice, with multiple different languages and databases, and deployment on different cloud services.
+- Experienced in web application backend development, either monolith or microservice, with multiple different programming languages and database technologies, and deployment on different cloud services.
 - Experienced in microservice development with AWS Lambda Functions.
-- Experienced in CI/CD coordinated by Jenkins (or AWS Codebuild), under containerized environments and deployed to AWS with Cloudformation template.
-- Through carrying out the Agile/Scrum practice, am capable working within a self-organized team under a foreign environment and deliver done increments per sprint.
+- Experienced in building application that runs in Kubernetes (EKS).
+- Experienced in CI/CD coordinated by Jenkins along with Helm and ArgoCD to have app image versioned and deployed.
+- Following the Agile/Scrum practice, I am capable of working in a self-organized team and have cross-team communication in an English-native environment and deliver done increments per sprint.
 
 ---
 
@@ -25,11 +27,16 @@ Career started as a _Bioinformatic technician_, un-puzzling genome level sequenc
 
 ### Constant Contact
 * **Senior Software Engineer** _Apr. 2022 - Now_
-    - Joined a team that mainly maintains and develops system incorporated from Retention Science, a company acquired from 2020. These are all backend applications that mainly store customers' data and process their business logics in a scalable and performant manner.
-    - Refactored legacy code and build new features on top.
-    - Had on-call shifts for the systems under our team's maintenance.
-    - Involved with database upgrade, e.g. mysql 5.6 to 5.7, elasticsearch 6 to 1.3.
-    - Technology of frequent use: Scala, SBT, Cadence, Python, serverless, AWS ECS/Lambda/OpenSearch/Aurora MySQL/S3/SQS/SNS/Kinesis/Athena
+    - Joined a department that maintains and develops services incorporated from Retention Science, a company acquired by Constant Contact at 2020. These backend services store customers' data and process their business logics in a scalable and performant manner, with monitoring tools like Grafana wired.
+    - Refactored legacy code and build new features by requirements.
+    - Took on-call shifts for the (40+) services under our team's maintenance.
+    - Handled database upgrade tasks: MySQL 5.6 to 5.7, MySQL 5.6 to 8, elasticsearch 6 to 1.3.
+    - Started rotating in departments of Constant Contact at Nov. 2023 and handled various kind of tasks ever since.
+    - Setup canary rollout strategy of ArgoCD with use of prometheus metrics for AnalysisRun.
+    - Handled database migration task: Cassandra to AWS Keyspaces.
+    - Built API that generates customizable QR code with Java.
+    - Built K8s app that caches data from S3 used for AI content generation with Python Fastapi, with OpenTelemetry trace/metric collected and have Grafana dashboard built on top of them.
+    - Technology of frequent use: Scala, SBT, Java, Maven, Cadence, Python, Poetry, serverless, AWS ECS/EKS/Lambda/OpenSearch/Aurora MySQL/S3/SQS/SNS/Kinesis/Athena
 
 ### Cameo Inc.
 * **Senior Software Developer (contractor)** _Nov. 2021 - Apr. 2022_
@@ -41,13 +48,13 @@ Career started as a _Bioinformatic technician_, un-puzzling genome level sequenc
 
 ### FST Network
 * **Senior Software Developer** _June 2021 - August 2021_
-    - Joined a team that develops a data mesh software with Rust which was orchestrated with kubernetes.
+    - Joined a team that develops a data mesh software with Rust which was orchestrated with Kubernetes.
     - Developed a FTP client feature with async_ftp crate .
     - Developed RESTful APIs that get data from Postgresql with sqlx crate.
     - Developed gRPC APIs that communicate between microservices with the tonic crate.
 
 ### Wistron ITS
-* **Senior DevOps Engineer** (Contractor of Bioclinica, a US company provides clinical imaging solution) _Nov 2020 - May 2021_
+* **Senior DevOps Engineer** (Contractor of Bioclinica, a US company providing clinical imaging solution) _Nov 2020 - May 2021_
     - Continuously optimizing the CICD process of two Npm-managed Javascript web applications.
     - Maintained CICD processes that mainly covers build, test, publish, git tagging and deployment to AWS.
     - By using AWS Codebuild with docker images as concurrent Jenkins slaves, Jenkins jobs are scalable.
@@ -81,7 +88,7 @@ Career started as a _Bioinformatic technician_, un-puzzling genome level sequenc
     - Customize the crawl on JS-generated pages with the use of Selenium.
     - Developed an event-driven and scalable web application with the use of Nginx, uWSGI/Gunicorn, Flask, Celery*, Docker and Supervisor.
     - Familiar with the deployment of docker images with GCE on GCP (Google Cloud Platform) and monitoring them with StackDriver.
-    - Familiar with deploying microservices as pods with GKE (kubernetes) on GCP by customizing the YAML file.
+    - Familiar with deploying microservices as pods with GKE (Kubernetes) on GCP by customizing the YAML file.
     - Automating the sales’ requirements by searching through a list of keywords against Elasticsearch DB and generating a csv format file with python script.
 
 ### Hgiga Inc.
@@ -131,6 +138,8 @@ Career started as a _Bioinformatic technician_, un-puzzling genome level sequenc
 - Languages
     - Python, Scala, Java/Kotlin, Rust, Node.js, Javascript, Go
     - Bash, Perl5, PHP, R, HTML
+- Kubernetes
+    - Helm, ArgoCD, kubectl
 - Web frameworks and related tools
     - Python
         - FastAPI(starlette), Flask(uWSGI, Gunicorn), Django, Celery(async design), Sqlalchemy(SQL ORM)
@@ -140,7 +149,7 @@ Career started as a _Bioinformatic technician_, un-puzzling genome level sequenc
         - Tomcat, Spring-boot, Hystrix, Liquibase, Security, JPA, Swagger, Junit, Mockito, Gradle, Maven
 - Web server: Nginx
 - Database
-    - PostgreSQL, MySQL, AWS RDS
+    - Snowflake, PostgreSQL, MySQL, AWS RDS
     - AWS DynamoDB, MongoDB
     - Redis, Memcached
     - Kafka
@@ -158,13 +167,17 @@ Career started as a _Bioinformatic technician_, un-puzzling genome level sequenc
 - IDE:
     - VSCode, IntelliJ, PyCharm
 - Container
-    - Docker, Docker-compose, Kubernetes
+    - Docker, Docker-compose
 - DevOps
     - CodeBuild, Jenkins, AWS cli
 - OS
     -  Window (WSL2), Linux, MacOS
 - Protocol
     - REST, GraphQL, gRPC, HTTP(S), SMTP, FTP(S)
+- Security
+    - Ldap, Akeyless
+- Monitoring
+    - Grafana, Mimir, Prometheus, Loki, Airbrake
 - Others
     - Postman
     - Jira, Confluence, Trello
